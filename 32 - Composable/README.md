@@ -1,6 +1,5 @@
 ![banner](./jetpack.png)
 # Jetpack Compose
-- - -
 Jetpack Compose 는 Android UI 를 선언적으로 구성할 수 있도록 하는 UI 툴킷이다.<br/>
 <br/>
 <br/>

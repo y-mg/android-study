@@ -1,6 +1,5 @@
 ![banner](./android.png)
 # LifecycleScope
-- - -
 `LifecycleScope` 는 안드로이드의 `LifecycleOwner`(예: `Activity`, `Fragment`)에 종속된 코루틴 스코프이다.<br/>
 이를 활용하면 `LifecycleOwner` 가 `Destroyed` 상태가 될 때 자동으로 코루틴이 취소되어 메모리 누수를 방지할 수 있다.<br/>
 일반적으로 코루틴을 사용할 때는 `CoroutineContext.cancel()` 을 명시적으로 호출해야 하지만, `lifecycleScope` 를 사용하면 생명주기에 따라 자동으로 코루틴이 관리된다.<br/>

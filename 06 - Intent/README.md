@@ -1,6 +1,5 @@
 ![banner](./android.png)
 # Intent
-- - -
 `Intent` 는 안드로이드에서 컴포넌트 간의 통신을 담당하는 핵심 메커니즘이다.<br/> 
 이를 통해 다른 컴포넌트를 실행하거나 데이터를 전달할 수 있다.<br/>
 <br/>
@@ -43,7 +42,6 @@ fun `암시적_인텐트`() {
 
 
 # PendingIntent
-- - -
 `PendingIntent` 는 나중에 실행될 인텐트를 미리 설정하여 시스템이나 다른 애플리케이션이 대신 실행할 수 있도록 하는 메커니즘이다.<br/> 
 주로 알림(Notification), 알람(Alarm), 위젯(Widget) 등의 기능에서 사용된다.<br/>
 <br/>

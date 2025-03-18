@@ -1,6 +1,5 @@
 ![banner](./jetpack.png)
 # Data Binding
-- - -
 Data Binding 은 XML 레이아웃 파일과 데이터 소스 간에 자동으로 바인딩을 설정해주는 기능이다.<br/>
 이 기능을 통해 UI 와 데이터의 결합을 코드에서 직접적으로 하지 않고도 양방향 데이터와 UI 의 동기화가 가능하다.<br/>
 Data Binding 은 MVVM 패턴에서 주로 활용되며, View 와 ViewModel 간의 의존성을 줄여 코드의 가독성과 유지보수성을 높여준다.<br/>
@@ -97,7 +96,6 @@ class MainActivity : AppCompatActivity() {
 
 
 # BindingAdapter
-- - -
 BindingAdapter 는 XML 에서 커스텀 속성을 정의하고 이를 처리할 수 있는 어노테이션 기능입니다.<br/>
 Data Binding 을 사용하는 프로젝트에서 커스텀 속성을 만들어 뷰의 특정 동작이나 스타일을 설정하는 로직을 캡슐화할 수 있다.<br/>
 예를 들어, 이미지 로딩 라이브러리를 이용해 URL 을 이미지로 표시하거나, 특정 조건에 따라 UI 요소를 동적으로 변경하고자 할 때 BindingAdapter 를 사용하여 XML 파일에서 해당 속성을 설정할 수 있다.<br/>

@@ -1,6 +1,5 @@
 ![banner](./android.png)
 # Flow
-- - -
 `Flow` 는 데이터를 발행하지만 저장하지 않는 Cold Stream 이다.<br/>
 이는 구독자가 있을 때만 데이터를 방출하며, 구독자가 없으면 데이터가 흐르지 않는다.<br/>
 안드로이드에서 `Flow` 를 UI 에 바인딩하면 화면이 재구성될 때 데이터를 다시 가져오는 문제가 발생할 수 있다.<br/>
@@ -61,7 +60,6 @@ class FlowViewModel : ViewModel() {
 
 
 # StateFlow
-- - -
 `StateFlow` 는 상태 관리에 특화된 `Flow` 로, 항상 현재 상태를 하나만 유지하며, 구독 시점에 즉시 최신 상태를 제공하고 이후 상태 변화를 관찰할 수 있는 Hot Stream 이다.<br/>
 내부적으로 중복된 상태를 무시하는 `distinctUntilChanged()` 기능이 내장되어 있으며, 초기값 설정이 필수이며, 항상 최신 상태를 유지한다.<br/>
 주로 ViewModel 에서 UI 상태를 관리하거나 앱 전반의 상태를 관리하는 데 사용된다.<br/>
@@ -98,7 +96,6 @@ class StateFlowViewModel : ViewModel() {
 
 
 # SharedFlow
-- - -
 `SharedFlow` 는 초기값 없이 시작할 수 있으며, 상태를 유지하지 않고 여러 이벤트를 발행할 수 있어서 데이터 전달 방식을 유연하게 구성할 수 있는 Hot Stream 이다.<br/>
 설정에 따라 다수의 구독자가 독립적으로 데이터를 소비할 수 있어, 여러 구독자가 동시에 처리해야 하는 데이터를 전달하는 데 사용된다.<br/>
 주로 일회성 이벤트, UI 이벤트(알림, 네비게이션)와 같은 이벤트 스트림에 적합하다.<br/>
@@ -148,7 +145,6 @@ class SharedFlowViewModel : ViewModel() {
 
 
 # CallbackFlow
-- - -
 `CallbackFlow` 는 콜백 기반의 비동기 작업을 `Flow` 로 변환하는 데 사용되는 `Flow` 빌더이다.<br/>
 주로 리스너를 통해 이벤트를 수신할 때 유용하며, 이러한 리스너 내부의 데이터를 `Flow` 로 전달하는 기능을 제공한다.<br/>
 일반적으로 `Flow` 와 리스너의 스코프가 다르기 때문에 리스너 내부에서 `emit()` 을 직접 호출하여 데이터를 보낼 수 없다.<br/>

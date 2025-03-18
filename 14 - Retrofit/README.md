@@ -1,6 +1,5 @@
 ![banner](./android.png)
 # OkHttp / Retrofit
-- - -
 OkHttp 과 Retrofit 은 Square 에서 개발한 HTTP 통신을 위한 라이브러리이다.<br/>
 OkHttp 는 네트워크 요청을 보다 세밀하게 제어할 수 있으며, 인터셉터를 활용하여 모든 네트워크 요청과 응답을 모니터링하거나 로깅하는 등 다양한 기능을 제공한다.<br/>
 Retrofit 은 REST API 호출을 더 간결하고 직관적으로 작성할 수 있게 도와주며, OkHttp 는 내부적으로 Retrofit 의 네트워크 통신을 담당하는 역할을 수행한다.<br/>
@@ -46,7 +45,6 @@ dependencies {
 
 
 # OkHttp
-- - -
 OkHttp 는 네트워크 요청을 보다 세밀하게 제어할 수 있으며, Retrofit 의 내부 네트워크 처리 엔진으로 사용된다.<br/>
 또한, 인터셉터를 활용하여 네트워크 요청과 응답을 모니터링하거나 변형하는 기능을 제공한다.<br/>
 <br/>
@@ -222,7 +220,6 @@ class TokenManager(
 
 
 # Retrofit
-- - -
 Retrofit 은 REST API 호출을 간결하고 직관적으로 작성할 수 있도록 도와주는 라이브러리로, 어노테이션 기반 설정을 통해 API 요청을 추상화한다.<br/>
 <br/>
 <br/>

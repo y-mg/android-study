@@ -1,6 +1,5 @@
 ![banner](./android.png)
 # Keystore
-- - -
 KeyStore 는 안드로이드에서 암호화 키를 안전하게 저장하고 관리하는 시스템 제공 저장소이다.<br/>
 이를 활용하면 암호화된 데이터를 보호하고, 키를 안전하게 보관하여 보안성을 높일 수 있다.<br/>
 또한 KeyStore 를 사용하면 키가 단말기 외부로 유출되지 않도록 보호할 수 있으며, 하드웨어 보안 모듈(HSM)이나 Trusted Execution Environment(TEE) 를 통해 보안성이 강화된다.<br/>

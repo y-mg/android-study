@@ -1,6 +1,5 @@
 ![banner](./android.png)
 # Activity
-- - -
 액티비티(`Activity`)는 안드로이드 애플리케이션에서 UI 를 제공하고 사용자와 상호작용하는 주요 컴포넌트이다.<br/>
 애플리케이션에는 적어도 하나의 액티비티가 필요하며, 화면 구성 요소로 프래그먼트(`Fragment`)를 사용할 수 있다.<br/>
 <br/>
@@ -10,7 +9,6 @@
 
 
 # Activity Lifecycle
-- - -
 액티비티는 다양한 생명주기 단계에 따라 관리되며, 각 단계에서 호출되는 메서드가 다르다.<br/>
 액티비티의 생명주기를 정확하게 이해하는 것은 안드로이드 앱을 효과적으로 개발하는 데 중요한 부분이다.<br/>
 ![activity-lifecycle](./activity-lifecycle.png)

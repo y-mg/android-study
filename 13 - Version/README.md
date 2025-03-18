@@ -1,6 +1,5 @@
 ![banner](./android.png)
 # Version
-- - -
 ## Minimum SDK Version
 앱이 실행되기 위해 필요한 최소 Android API 레벨을 나타낸다.<br/>
 이 값은 앱이 지원하는 Android 버전의 하한선을 결정하며, 설정된 API 레벨보다 낮은 버전의 Android 기기에서는 앱이 작동하지 않는다.<br/>
@@ -89,7 +88,6 @@ android {
 
 
 # Build
-- - -
 안드로이드에서 빌드는 개발자가 소스 코드를 작성한 후 앱 설치 파일인 APK 또는 AAB 를 생성하는 일련의 과정을 의미한다.<br/>
 이 과정에서는 코드 컴파일, 리소스 처리, 서명 등 앱 배포를 위해 필요한 여러 단계가 포함된다.<br/>
 ![build](./build.png)
@@ -128,7 +126,6 @@ APK 파일은 디바이스에서 실행되기 위해 반드시 디지털 서명�
 
 
 # AAB(Android App Bundle)
-- - -
 2018년, Google은 새로운 앱 배포 형식인 AAB(Android App Bundle)를 발표했다.<br/>
 기존 APK(Android Package)는 하나의 완성된 앱 파일이었으나, AAB는 다양한 모듈로 구성된 패키지 형태로, 최종 사용자의 디바이스에 최적화된 APK 를 생성하는 데 필요한 요소들로 이루어져 있다.<br/>
 <br/>

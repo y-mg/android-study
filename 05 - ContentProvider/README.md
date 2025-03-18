@@ -1,6 +1,5 @@
 ![banner](./android.png)
 # ContentProvider
-- - -
 ContentProvider는 애플리케이션 간 데이터를 안전하게 공유하는 안드로이드 컴포넌트이다.<br/>
 내부 데이터베이스(SQLite), 파일, 네트워크 데이터 등을 외부 앱과 공유할 때 사용된다.<br/>
 일반적으로 URI(Uniform Resource Identifier)를 통해 데이터를 주고받으며, 권한을 설정하여 보안성을 확보할 수 있다.<br/>
@@ -12,7 +11,6 @@ ContentProvider는 애플리케이션 간 데이터를 안전하게 공유하는
 
 
 # ContentProvider 기본 구현
-- - -
 ## ContentProvider 생성
 `ContentProvider` 를 구현하려면 `android.content.ContentProvider` 클래스를 상속받아 6개의 주요 메서드를 구현해야 한다.<br/>
 

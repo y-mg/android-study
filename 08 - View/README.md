@@ -1,6 +1,5 @@
 ![banner](./android.png)
 # View
-- - -
 안드로이드의 뷰(`View`)는 UI 를 구성하는 기본 요소로, 트리 구조로 이루어져 있으며 상위 뷰는 하위 뷰를 포함하는 부모-자식 관계를 형성한다.<br/>
 각 뷰는 다양한 작업을 처리하며 화면에 표시되는 UI 를 구성한다.<br/>
 뷰가 그려지는 순서는 Top-Down 방식으로, 상위 뷰에서부터 하위 뷰로 내려가며 그려지며, 뷰 계층 구조가 화면에 렌더링되는 순서와 밀접하게 연결된다.<br/>
@@ -60,7 +59,6 @@ override fun onDraw(canvas: Canvas) {
 
 
 # Layout
-- - -
 안드로이드의 레이아웃 시스템은 뷰 그룹(`ViewGroup`)을 사용하여 여러 뷰를 배치한다.<br/>
 대표적인 레이아웃으로는 `ConstraintLayout`, `LinearLayout`, `FrameLayout`, `RelativeLayout` 등이 있으며, 각각의 레이아웃은 특정한 배치 방법과 성능 특성을 가지고 있다.<br/>
 특히, `ConstraintLayout` 은 성능을 최적화하는 데 유리하여 권장되는 레이아웃이다.<br/>

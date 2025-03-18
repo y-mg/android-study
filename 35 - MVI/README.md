@@ -1,6 +1,5 @@
 ![banner](./architecture.png)
 # MVI(Model-View-Intent)
-- - -
 MVI 패턴은 Model, View, Intent 로 구성된다.<br/>
 사용자의 액션은 Intent 로 정의되고, Intent 가 ViewModel 로 전달되어 비즈니스 로직(Model)을 처리한 후, 그 결과로 새로운 State 를 생성해서 Reducer 를 통해 View 에 렌더링하는 구조이다.<br/>
 가장 큰 특징은 상태의 불변성(Immutable State)과 단방향 흐름으로, 상태(State)는 항상 한 방향으로만 흐르기 때문에, 데이터 흐름이 명확하고 디버깅이 쉽다.<br/>

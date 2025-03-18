@@ -1,6 +1,5 @@
 ![banner](./jetpack.png)
 # Compose
-- - -
 ## 안드로이드 XML
 안드로이드의 기존 뷰 시스템(View)은 XML 로 UI 를 구성하며, UI 요소에 접근하고 업데이트하려면 `findViewById()` 함수를 사용하거나 `ViewBinding` 을 통해 뷰 객체를 가져와야 한다.<br/>
 각 뷰는 고유의 상태를 가지며, 예를 들어 `getText()` 함수로 텍스트 상태를 가져오고, `setText()` 함수로 상태를 업데이트한다.<br/>
@@ -68,7 +67,6 @@ fun GreetingPreview() {
 
 
 # Composition
-- - -
 컴포저블 함수는 화면을 그리기 위한 UI 의 기본 단위로, `@Composable` 어노테이션이 부여된 함수로 되어 있으며, 선언형 방식으로 UI 요소를 정의할 수 있다.<br/>
 컴포지션(Composition)은 이러한 컴포저블 함수가 UI 를 구성하기 위해 컴포즈에서 처리하는 전체 과정을 의미한다.<br/>
 최초 컴포지션이 발생할 때 UI 가 그려지며, 상태 변경이 발생하면 UI 의 일부만 업데이트될 수 있도록 컴포지션이 수정되는데, 이 과정을 리컴포지션(Recomposition)이라고 한다.<br/>
@@ -133,7 +131,6 @@ interface UiState<T : Result<T>> {
 
 
 # Compose Rendering
-- - -
 ## Compose Rendering Process
 안드로이드 컴포즈에서 UI 를 그리기 위해서는 Composition, Layout, Drawing 이라는 세 단계를 거친다.<br/>
 각 단계는 UI 를 구성하고 렌더링하는 데 중요한 역할을 하며, 최적화된 UI 업데이트를 가능하게 한다.<br/>
