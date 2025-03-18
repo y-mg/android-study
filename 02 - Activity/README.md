@@ -11,7 +11,7 @@
 # Activity Lifecycle
 액티비티는 다양한 생명주기 단계에 따라 관리되며, 각 단계에서 호출되는 메서드가 다르다.<br/>
 액티비티의 생명주기를 정확하게 이해하는 것은 안드로이드 앱을 효과적으로 개발하는 데 중요한 부분이다.<br/>
-![activity-lifecycle](./activity-lifecycle.png)
+<br/>![activity-lifecycle](./activity-lifecycle.png)
 <br/>
 <br/>
 

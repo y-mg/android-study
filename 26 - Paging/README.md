@@ -2,7 +2,7 @@
 # Paging
 Android 에서 지원하는 페이징 라이브러리로, 대규모 데이터를 효율적으로 로드하고 UI 에 반영할 수 있도록 설계되었다.<br/>
 `PagingConfig` 와 `PagingSource` 또는 `RemoteMediator` 의 설정을 기반으로 `Pager` 를 사용해 `PagingData` 를 생성한 후, 이를 `PagingDataAdapter` 로 UI 에 반영하는 방식으로 동작한다.<br/>
-![paging](./paging.png)
+<br/>![paging](./paging.png)
 <br/>
 <br/>
 

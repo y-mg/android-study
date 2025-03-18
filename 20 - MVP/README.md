@@ -1,9 +1,9 @@
-![architecture](./architecture.png)
+<br/>![architecture](./architecture.png)
 # MVP(Model-View-Presenter)
 MVP 패턴은 MVC(Model-View-Controller)의 한계를 보완하여 View 와 비즈니스 로직을 보다 명확하게 분리한 아키텍처 패턴이다.<br/>
 MVP 패턴을 사용하면 UI 로직과 비즈니스 로직을 분리하여 테스트하기 용이하며, UI 와 독립적인 비즈니스 로직을 유지보수하기 쉬워진다.<br/>
 하지만 View 와 1:1 관계로 많은 Presenter 가 필요하게 되므로 코드 양이 증가하고, Presenter 의 복잡성이 증가하여 유지보수가 어려워질 수 있다.<br/>
-![mvp](./mvp.png)
+<br/>![mvp](./mvp.png)
 <br/>
 <br/>
 

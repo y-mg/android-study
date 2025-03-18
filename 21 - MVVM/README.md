@@ -1,10 +1,10 @@
-![architecture](./architecture.png)
+<br/>![architecture](./architecture.png)
 # MVVM(Model-View-ViewModel)
 MVVM(Model-View-ViewModel) 패턴은 안드로이드에서 권장되는 아키텍처 패턴으로, UI 로직과 비즈니스 로직을 분리하여 유지보수성과 테스트 용이성을 높이는 데 기여한다.<br/>
 MVVM 의 핵심 개념은 ViewModel 이 View 에 대한 참조를 가지지 않고 독립적으로 존재한다는 점이다.<br/>
 이를 통해 액티비티 및 프래그먼트의 생명주기와 관계없이 데이터를 유지할 수 있으며, 화면 회전과 같은 구성 변경(Configuration Change) 시에도 데이터 손실을 방지할 수 있다.<br/>
 또한, ViewModel 의 `onCleared()` 메서드를 활용하여 액티비티 또는 프래그먼트가 종료될 때 필요한 리소스를 해제하여 메모리 누수를 방지할 수 있다.<br/>
-![mvvm](./mvvm.png)
+<br/>![mvvm](./mvvm.png)
 <br/>
 <br/>
 

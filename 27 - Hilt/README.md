@@ -16,7 +16,7 @@ Hilt 는 Google 이 Dagger 를 기반으로 만든 안드로이드에 특화된 
 Hilt 는 계층 구조를 가진 컴포넌트를 통해 필요한 의존성을 클래스에 제공한다.<br/>
 각 컴포넌트는 부모 컴포넌트로부터 의존성을 상속받아 사용할 수 있으며, 다양한 생명주기에 맞춰 구성된다.<br/>
 컴포넌트 생성은 `@HiltAndroidApp` 어노테이션이 적용된 애플리케이션 클래스에서 시작된다.<br/>
-![hilt-components](./hilt-components.png)
+<br/>![hilt-components](./hilt-components.png)
 <br/>
 
 ### SingletonComponent

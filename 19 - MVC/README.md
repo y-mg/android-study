@@ -1,10 +1,10 @@
-![architecture](./architecture.png)
+<br/>![architecture](./architecture.png)
 # MVC(Model-View-Controller)
 MVC 패턴은 Model, View, Controller 의 약자로, 각각의 역할이 명확하게 구분되는 디자인 패턴이다.<br/>
 UI 와 비즈니스 로직을 분리하여 개발의 효율성을 높이고 유지보수를 용이하게 하려는 목적을 가지고 있다.<br/>
 안드로이드에서는 일반적으로 `Activity` 나 `Fragment` 가 View 역할과 동시에 Controller 역할을 수행한다.<br/>
 단순성과 직관성 덕분에 빠르게 개발할 수 있게 해주지만, 코드가 점점 복잡해지고 UI 로직과 비즈니스 로직이 혼합되어 대규모 프로젝트에서는 유지보수가 어려워지는 단점이 있다.<br/>
-![mvc](./mvc.png)
+<br/>![mvc](./mvc.png)
 <br/>
 <br/>
 

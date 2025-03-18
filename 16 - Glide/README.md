@@ -118,7 +118,7 @@ fun ImageView.bindImageWithRequestOptions(url: String) {
 ## Glide 의 캐싱 메커니즘
 Glide 는 메모리 캐시와 디스크 캐시를 사용하여 이미지를 효율적으로 캐시한다.<br/>
 캐시에서 이미지를 먼저 찾고, 없으면 네트워크 요청을 통해 이미지를 불러온다.<br/>
-![glide-cache](./glide-cache.png)
+<br/>![glide-cache](./glide-cache.png)
 <br/>
 <br/>
 
