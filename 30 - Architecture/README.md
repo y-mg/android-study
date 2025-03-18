@@ -1,9 +1,9 @@
 ![banner](./architecture.png)
 # Clean Architecture
-Clean Architecture 는 로버트 C. 마틴(Robert C. Martin)이 제안한 아키텍처 패턴으로, 소프트웨어를 독립적인 계층으로 나누고 각 계층이 특정 역할을 수행하도록 설계된다.
-즉, 클린 아키텍처(Clean Architecture)는 유지보수성, 확장성, 테스트 용이성을 극대화하기 위해 설계된 아키텍처 패턴이다.
-가장 중요한 개념은 의존성 규칙을 명확히해서 비즈니스 로직이 UI, 프레임워크, 데이터베이스 같은 외부 요소에 의존하지 않도록 설계하는 것이 핵심이다.
-예를 들어, 비즈니스 로직을 담당하는 ViewModel 은 데이터 원본(DB, API 등)에 의존하지 않고, 인터페이스와 UseCase 를 통해 상호작용해야 한다.
+Clean Architecture 는 로버트 C. 마틴(Robert C. Martin)이 제안한 아키텍처 패턴으로, 소프트웨어를 독립적인 계층으로 나누고 각 계층이 특정 역할을 수행하도록 설계된다.<br/>
+즉, 클린 아키텍처(Clean Architecture)는 유지보수성, 확장성, 테스트 용이성을 극대화하기 위해 설계된 아키텍처 패턴이다.<br/>
+가장 중요한 개념은 의존성 규칙을 명확히해서 비즈니스 로직이 UI, 프레임워크, 데이터베이스 같은 외부 요소에 의존하지 않도록 설계하는 것이 핵심이다.<br/>
+예를 들어, 비즈니스 로직을 담당하는 ViewModel 은 데이터 원본(DB, API 등)에 의존하지 않고, 인터페이스와 UseCase 를 통해 상호작용해야 한다.<br/>
 <br/>![clean-architecture](./clean-architecture.png)<br/>
 <br/>
 <br/>
