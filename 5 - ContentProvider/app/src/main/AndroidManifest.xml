@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ContentProvider"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        authorities: 디바이스 전체에서 콘텐츠 프로바이더를 구분하기 위한 식별자이다.
+        exported: 외부 앱에서 접근에 대한 허용을 설정한다.
+        permission: 특정 권한이 있는 앱만 접근 가능하도록 설정한다.
+        grantUriPermissions: 특정 앱이 특정 URI 에 접근할 수 있도록 동적으로 권한을 부여하는 기능으로, 앱이 미리 선언한 권한이 없어도 특정 URI 에 대해 읽기(READ) 또는 쓰기(WRITE) 권한을 일시적으로 부여할 수 있다.
+        -->
+        <provider
+            android:name=".MyContentProvider"
+            android:authorities="com.ymg.contentprovider.provider"
+            android:exported="true"
+            android:permission="com.example.permission.READ_DATA"
+            android:grantUriPermissions="true"/>
+
+    </application>
+
+</manifest>
