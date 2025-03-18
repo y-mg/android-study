@@ -54,7 +54,7 @@ fun `Looper_동작_확인`() {
 # Handler
 핸들러(`Handler`)는 특정 스레드의 메시지 큐에 작업을 추가하거나, 해당 큐에서 메시지를 받아 처리하는 역할을 한다.<br/>
 즉, 루퍼와 함께 작동하며 스레드 간의 통신을 중계하는 역할을 한다.<br/>
-<br/>![handler](./handler.png)
+<br/>![handler](./handler.png)<br/>
 <br/>
 <br/>
 

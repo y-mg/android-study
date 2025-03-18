@@ -19,7 +19,7 @@
 # Fragment Lifecycle
 프래그먼트는 액티비티와 마찬가지로 여러 상태를 거치며, 이에 따라 특정 생명 주기 메서드가 호출된다.<br/>
 프래그먼트의 생명 주기는 액티비티의 생명 주기와 밀접하게 연관되어 있다.<br/>
-<br/>![fragment-lifecycle](./fragment-lifecycle.png)
+<br/>![fragment-lifecycle](./fragment-lifecycle.png)<br/>
 <br/>
 <br/>
 
