@@ -1,4 +1,4 @@
-![banner](./android.png)
+![image](./android.png)
 # Version
 ## Minimum SDK Version
 앱이 실행되기 위해 필요한 최소 Android API 레벨을 나타낸다.<br/>
@@ -90,7 +90,7 @@ android {
 # Build
 안드로이드에서 빌드는 개발자가 소스 코드를 작성한 후 앱 설치 파일인 APK 또는 AAB 를 생성하는 일련의 과정을 의미한다.<br/>
 이 과정에서는 코드 컴파일, 리소스 처리, 서명 등 앱 배포를 위해 필요한 여러 단계가 포함된다.<br/>
-<br/>![build](./build.png)<br/>
+<br/>![image](./build.png)<br/>
 <br/>
 <br/>
 
@@ -102,8 +102,8 @@ Gradle 빌드 스크립트를 통해 앱의 의존성, 라이브러리, 리소�
 <br/>
 
 ## Build Process
-<br/>![build](./build-process-01.png)<br/>
-<br/>![build](./build-process-02.png)<br/>
+<br/>![image](./build-process-01.png)<br/>
+<br/>![image](./build-process-02.png)<br/>
 <br/>
 
 ### 컴파일 단계 

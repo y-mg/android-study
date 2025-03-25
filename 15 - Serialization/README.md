@@ -1,4 +1,4 @@
-![banner](./android.png)
+![image](./android.png)
 # Serializable
 `Serializable` 은 Java 의 표준 인터페이스로, 객체를 바이트 스트림으로 변환하여 저장하거나, 바이트 스트림을 객체로 복원하는 작업을 수행한다.<br/>
 추가적인 메소드 구현 없이 직렬화를 처리할 수 있지만, Reflection 을 사용하여 직렬화를 처리하기 때문에 성능 저하가 발생할 수 있으며, 안드로이드 환경에서는 성능에 영향을 미칠 수 있다.<br/>

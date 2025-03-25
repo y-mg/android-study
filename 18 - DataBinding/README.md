@@ -1,4 +1,4 @@
-![banner](./jetpack.png)
+![image](./jetpack.png)
 # Data Binding
 Data Binding 은 XML 레이아웃 파일과 데이터 소스 간에 자동으로 바인딩을 설정해주는 기능이다.<br/>
 이 기능을 통해 UI 와 데이터의 결합을 코드에서 직접적으로 하지 않고도 양방향 데이터와 UI 의 동기화가 가능하다.<br/>

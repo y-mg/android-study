@@ -1,4 +1,4 @@
-![banner](./android.png)
+![image](./android.png)
 # DiffUtil
 `DiffUtil` 은 `RecyclerView` 의 데이터가 변경될 때, 불필요한 `ViewHolder` 갱신을 최소화하여 성능을 최적화하는 유틸리티이다.<br/>
 일반적으로 `RecyclerView.Adapter` 의 `notify···()` 함수로 전체 아이템을 갱신할 수 있지만, 변경이 필요하지 않은 항목까지 갱신되면서 리소스 낭비가 발생할 수 있다.<br/>

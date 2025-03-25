@@ -1,4 +1,4 @@
-![banner](./android.png)
+![image](./android.png)
 # BroadcastReceiver
 `BroadcastReceiver` 는 시스템 또는 애플리케이션에서 발생하는 브로드캐스트 이벤트를 수신하고 처리하는 안드로이드 컴포넌트이다.<br/>
 예를 들어, 배터리 부족, 네트워크 상태 변경, 기기 부팅 등의 이벤트를 감지할 수 있다.<br/>

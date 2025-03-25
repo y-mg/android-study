@@ -1,4 +1,4 @@
-![banner](./android.png)
+![image](./android.png)
 # RecyclerView
 `RecyclerView` 는 리스트 형태로 데이터를 효율적으로 보여주는 컨테이너로, 화면에 보이는 뷰를 재활용하여 성능을 최적화한다.<br/>
 기존의 `ListView` 는 스크롤 시 보이는 만큼만 뷰를 생성하고 보이지 않으면 삭제하는 방식이었으며, 이로 인해 스크롤 시 성능 저하 문제가 발생할 수 있었다.<br/>

@@ -1,4 +1,4 @@
-![banner](./android.png)
+![image](./android.png)
 # Intent
 `Intent` 는 안드로이드에서 컴포넌트 간의 통신을 담당하는 핵심 메커니즘이다.<br/> 
 이를 통해 다른 컴포넌트를 실행하거나 데이터를 전달할 수 있다.<br/>

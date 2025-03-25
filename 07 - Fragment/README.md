@@ -1,4 +1,4 @@
-![banner](./android.png)
+![image](./android.png)
 # Fragment
 프래그먼트(`Fragment`)는 하나의 액티비티 내에서 독립적으로 동작하는 UI 구성 요소로, 화면을 분할하거나 재사용성을 높이는 데 사용된다.<br/>
 프래그먼트는 항상 액티비티에 종속되며 독립적으로 실행될 수 없으나, 여러 액티비티에서 동일한 프래그먼트를 재사용할 수 있기 때문에 UI 를 효율적으로 관리하는 데 유용하다.<br/>
@@ -19,7 +19,7 @@
 # Fragment Lifecycle
 프래그먼트는 액티비티와 마찬가지로 여러 상태를 거치며, 이에 따라 특정 생명 주기 메서드가 호출된다.<br/>
 프래그먼트의 생명 주기는 액티비티의 생명 주기와 밀접하게 연관되어 있다.<br/>
-<br/>![fragment-lifecycle](./fragment-lifecycle.png)<br/>
+<br/>![image](./fragment-lifecycle.png)<br/>
 <br/>
 <br/>
 

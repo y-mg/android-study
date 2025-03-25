@@ -1,4 +1,4 @@
-![banner](./android.png)
+![image](./android.png)
 # Intent
 `Application` 클래스는 애플리케이션의 전역 상태를 관리하는 기본 클래스이다.<br/>
 애플리케이션 프로세스가 시작될 때 가장 먼저 생성되며, 프로세스 내에서 단일 인스턴스만 존재한다.<br/>

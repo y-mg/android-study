@@ -1,4 +1,4 @@
-![banner](./architecture.png)
+![image](./architecture.png)
 # Dependency Injection(의존성 주입)
 의존성 주입(Dependency Injection, DI)은 객체 생성과 의존성 관리를 외부에서 처리하여 코드의 재사용성을 높이고, 객체 간 결합도를 낮춰 유지보수와 테스트 용이성을 높이는 구조를 제공한다.<br/>
 <br/>
@@ -16,7 +16,7 @@ Hilt 는 Google 이 Dagger 를 기반으로 만든 안드로이드에 특화된 
 Hilt 는 계층 구조를 가진 컴포넌트를 통해 필요한 의존성을 클래스에 제공한다.<br/>
 각 컴포넌트는 부모 컴포넌트로부터 의존성을 상속받아 사용할 수 있으며, 다양한 생명주기에 맞춰 구성된다.<br/>
 컴포넌트 생성은 `@HiltAndroidApp` 어노테이션이 적용된 애플리케이션 클래스에서 시작된다.<br/>
-<br/>![hilt-components](./hilt-components.png)<br/>
+<br/>![image](./hilt-components.png)<br/>
 <br/>
 
 ### SingletonComponent

@@ -1,4 +1,4 @@
-![banner](./android.png)
+![image](./android.png)
 # Glide
 Glide 는 Android 에서 이미지를 간편하게 로드하고 캐싱할 수 있는 라이브러리이다.<br/>
 네트워크나 로컬 파일에서 이미지를 불러오는 작업을 효율적으로 처리하며, 다양한 옵션을 제공해 이미지 로드 성능을 최적화할 수 있다.<br/>
@@ -118,7 +118,7 @@ fun ImageView.bindImageWithRequestOptions(url: String) {
 ## Glide 의 캐싱 메커니즘
 Glide 는 메모리 캐시와 디스크 캐시를 사용하여 이미지를 효율적으로 캐시한다.<br/>
 캐시에서 이미지를 먼저 찾고, 없으면 네트워크 요청을 통해 이미지를 불러온다.<br/>
-<br/>![glide-cache](./glide-cache.png)<br/>
+<br/>![image](./glide-cache.png)<br/>
 <br/>
 <br/>
 

@@ -1,4 +1,4 @@
-![banner](./jetpack.png)
+![image](./jetpack.png)
 # LiveData
 `LiveData` 는 데이터 변경에 대한 이벤트를 수신하는 데이터 홀더 클래스이다.<br/>
 `LiveData` 는 생명주기를 인식하고, `Activity`, `Fragment`, `ViewModel` 등의 생명주기에 맞춰 데이터를 자동으로 구독하고 해제하여 메모리 누수를 방지한다.<br/>

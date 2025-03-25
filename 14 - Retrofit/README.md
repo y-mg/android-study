@@ -1,4 +1,4 @@
-![banner](./android.png)
+![image](./android.png)
 # OkHttp / Retrofit
 OkHttp 과 Retrofit 은 Square 에서 개발한 HTTP 통신을 위한 라이브러리이다.<br/>
 OkHttp 는 네트워크 요청을 보다 세밀하게 제어할 수 있으며, 인터셉터를 활용하여 모든 네트워크 요청과 응답을 모니터링하거나 로깅하는 등 다양한 기능을 제공한다.<br/>

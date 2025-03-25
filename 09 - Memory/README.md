@@ -1,4 +1,4 @@
-![banner](./android.png)
+![image](./android.png)
 # Memory
 안드로이드 OS 에서 메모리는 힙(Heap)과 스택(Stack)을 통해 관리된다.<br/>
 앱의 성능을 최적화하고 메모리 누수(Memory Leak)를 방지하려면 이 두 영역을 효율적으로 관리하는 것이 중요하다.<br/>

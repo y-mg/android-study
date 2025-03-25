@@ -1,4 +1,4 @@
-![banner](./android.png)
+![image](./android.png)
 # Looper
 안드로이드에서 하나의 스레드는 오직 하나의 루퍼(`Looper`)를 가질 수 있다.<br/>
 메인 스레드(또는 UI 스레드)의 경우, 애플리케이션이 시작될 때 자동으로 `Looper` 가 초기화되며, 이를 통해 UI 관련 작업을 처리할 수 있다.<br/>
@@ -54,7 +54,7 @@ fun `Looper_동작_확인`() {
 # Handler
 핸들러(`Handler`)는 특정 스레드의 메시지 큐에 작업을 추가하거나, 해당 큐에서 메시지를 받아 처리하는 역할을 한다.<br/>
 즉, 루퍼와 함께 작동하며 스레드 간의 통신을 중계하는 역할을 한다.<br/>
-<br/>![handler](./handler.png)<br/>
+<br/>![image](./handler.png)<br/>
 <br/>
 <br/>
 

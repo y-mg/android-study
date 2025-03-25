@@ -1,10 +1,10 @@
-![banner](./architecture.png)
+![image](./architecture.png)
 # Clean Architecture
 Clean Architecture 는 로버트 C. 마틴(Robert C. Martin)이 제안한 아키텍처 패턴으로, 소프트웨어를 독립적인 계층으로 나누고 각 계층이 특정 역할을 수행하도록 설계된다.<br/>
 즉, 클린 아키텍처(Clean Architecture)는 유지보수성, 확장성, 테스트 용이성을 극대화하기 위해 설계된 아키텍처 패턴이다.<br/>
 가장 중요한 개념은 의존성 규칙을 명확히해서 비즈니스 로직이 UI, 프레임워크, 데이터베이스 같은 외부 요소에 의존하지 않도록 설계하는 것이 핵심이다.<br/>
 예를 들어, 비즈니스 로직을 담당하는 ViewModel 은 데이터 원본(DB, API 등)에 의존하지 않고, 인터페이스와 UseCase 를 통해 상호작용해야 한다.<br/>
-<br/>![clean-architecture](./clean-architecture.png)<br/>
+<br/>![image](./clean-architecture.png)<br/>
 <br/>
 <br/>
 
@@ -58,15 +58,15 @@ UI 와 관련된 코드가 위치하며 사용자와의 상호작용을 관리�
 안드로이드의 권장 아키텍처는 MVVM 패턴을 기반으로 하며, Google 에서 공식으로 제공하는 개발 가이드이다.<br/>
 UI 와 비즈니스 로직을 분리하여 개발 효율성을 높이고, 전체 앱 아키텍처를 고려해 크게 Data, Domain, UI 레이어로 구성된다.<br/>
 클린 아키텍처와 유사하나 Domain 레이어가 필수는 아니며 필요에 따라 유연하게 추가할 수 있다.<br/>
-<br/>![clean-architecture-layer](./clean-architecture-layer.png)<br/>
-<br/>![clean-architecture-detail](./clean-architecture-detail.png)<br/>
+<br/>![image](./clean-architecture-layer.png)<br/>
+<br/>![image](./clean-architecture-detail.png)<br/>
 <br/>
 <br/>
 
 ## UI Layer
 UI Layer 는 사용자 인터페이스(UI)와 직접 상호작용하는 계층이다.<br/>
 사용자 입력을 받아 이를 Intent 또는 Event 로 변환하고, UseCase 를 호출하여 결과를 UI 에 반영한다.<br/>
-<br/>![ui-layer](./ui-layer.png)<br/>
+<br/>![image](./ui-layer.png)<br/>
 
 ```kotlin
 @HiltViewModel
@@ -151,7 +151,7 @@ class GetPhotoUseCase @Inject constructor(
 Data Layer 는 데이터 소스와의 상호작용을 관리하는 계층이다.<br/>
 Domain Layer 의 요청을 받아 데이터를 가져오고 가공한 후 전달하며, Mapper 를 통해 데이터를 변환하여 UI Layer 가 Data Layer 에 의존하지 않도록 해야한다.<br/>
 외부 서비스의 의존성을 포함하되, Repository 패턴을 활용하여 Domain 계층에는 인터페이스로 추상화한다.<br/>
-<br/>![data-layer](./data-layer.png)<br/>
+<br/>![image](./data-layer.png)<br/>
 
 ```kotlin
 class RemotePhotoDataSourceImpl @Inject constructor(

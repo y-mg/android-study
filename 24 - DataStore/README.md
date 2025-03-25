@@ -1,4 +1,4 @@
-![banner](./jetpack.png)
+![image](./jetpack.png)
 # DataStore
 `DataStore` 는 안드로이드에서 Key-Value 형태로 데이터를 저장하고 관리할 수 있는 라이브러리이다.<br/>
 기존 `SharedPreferences` 와 비교하여 비동기 처리 및 데이터 무결성 보장 측면에서 개선된 방식이며, `Flow` 기반으로 동작하여 데이터 변경을 감지하고 구독할 수 있다.<br/>

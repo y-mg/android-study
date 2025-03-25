@@ -1,4 +1,4 @@
-![banner](./android.png)
+![image](./android.png)
 # ContentProvider
 ContentProvider는 애플리케이션 간 데이터를 안전하게 공유하는 안드로이드 컴포넌트이다.<br/>
 내부 데이터베이스(SQLite), 파일, 네트워크 데이터 등을 외부 앱과 공유할 때 사용된다.<br/>

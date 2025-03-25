@@ -1,9 +1,9 @@
-![banner](./jetpack.png)
+![image](./jetpack.png)
 # Room
 Room 은 Android 의 SQLite 데이터베이스를 보다 직관적으로 다룰 수 있도록 제공되는 ORM(Object Relational Mapping) 라이브러리이다.<br/>
 Room 은 SQLite 의 복잡한 쿼리 작성을 간소화하고, 컴파일 시점에서 SQL 구문 오류를 체크하여 안정성을 높여준다.<br/>
 또한 `LiveData`, `Flow` 와 같은 비동기 흐름을 지원하여 효율적인 데이터 처리를 가능하게 한다.<br/>
-<br/>![room](./room.png)<br/>
+<br/>![image](./room.png)<br/>
 <br/>
 <br/>
 

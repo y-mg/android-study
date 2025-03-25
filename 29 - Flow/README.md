@@ -1,4 +1,4 @@
-![banner](./android.png)
+![image](./android.png)
 # Flow
 `Flow` 는 데이터를 발행하지만 저장하지 않는 Cold Stream 이다.<br/>
 이는 구독자가 있을 때만 데이터를 방출하며, 구독자가 없으면 데이터가 흐르지 않는다.<br/>
