@@ -215,7 +215,7 @@ ViewModel 에서는 `StateFlow` 로 UI 상태를 관리하고, Use Case 에서�
 Use Case 에서 비동기 작업을 수행할 때, 코루틴(`Coroutine`)과 ``Flow` 를 활용하여 UI 와 비즈니스 로직 간의 비동기 처리를 효과적으로 관리해야 한다.<br/>
 이를 통해 Use Case 와 Repository 간의 의존성을 주입하고, 테스트 환경에서는 Fake 객체로 쉽게 대체할 수 있는 구조를 만들어야 한다.<br/>
 Use Case 와 Repository 는 Unit Test 로 검증하고, ViewModel 은 Robolectric 을 활용하여 실제 안드로이드 환경에서 테스트할 수 있다.<br/>
-이렇게 하면 각 계층의 테스트가 독립적이면서도 신뢰성을 확보할 수 있었습니다.<br/>
+이렇게 하면 각 계층의 테스트가 독립적이면서도 신뢰성을 확보할 수 있다.<br/>
 <br/>
 <br/>
 
