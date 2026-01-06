@@ -19,6 +19,7 @@ import androidx.paging.LoadState
 import androidx.paging.compose.collectAsLazyPagingItems
 import androidx.paging.compose.itemKey
 import com.ymg.architecture.feature.photo.grid.viewmodel.PhotoGridViewModel
+import com.ymg.architecture.feature.photo.grid.viewmodel.intent.PhotoGridIntent
 import com.ymg.architecture.feature.photo.grid.viewmodel.sideeffect.PhotoGridSideEffect
 import com.ymg.architecture.ui.core.state.UiStatePagingContainer
 import com.ymg.architecture.ui.design.component.image.BaseImage
@@ -109,8 +110,8 @@ fun PhotoGridItem(
             .aspectRatio(1.0f)
             .clickable(
                 onClick = {
-                    viewModel.postSideEffect(
-                        sideEffect = PhotoGridSideEffect.NavigateToDetail(
+                    viewModel.postIntent(
+                        intent = PhotoGridIntent.Nav(
                             id = id
                         )
                     )

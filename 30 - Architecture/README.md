@@ -73,11 +73,23 @@ UI Layer 는 사용자 인터페이스(UI)와 직접 상호작용하는 계층�
 class PhotoGridViewModel @Inject constructor(
     savedStateHandle: SavedStateHandle,
     getPhotosUseCase: GetPhotosUseCase
-) : BaseViewModel<PhotoGridState, PhotoGridSideEffect>(
+) : BaseViewModel<PhotoGridState, PhotoGridIntent, PhotoGridSideEffect>(
     initialState = PhotoGridState(),
     savedStateHandle = savedStateHandle
 ) {
     val photos = getPhotosUseCase().cachedIn(viewModelScope)
+
+    override fun postIntent(intent: PhotoGridIntent) {
+        when (intent) {
+            is PhotoGridIntent.Nav -> intent {
+                postSideEffect(
+                    sideEffect = PhotoGridSideEffect.NavigateToDetail(
+                        id = intent.id
+                    )
+                )
+            }
+        }
+    }
 }
 ```
 ```kotlin
@@ -85,10 +97,12 @@ class PhotoGridViewModel @Inject constructor(
 class PhotoDetailViewModel @Inject constructor(
     private val savedStateHandle: SavedStateHandle,
     private val getPhotoUseCase: GetPhotoUseCase
-) : BaseViewModel<PhotoDetailState, PhotoDetailSideEffect>(
+) : BaseViewModel<PhotoDetailState, PhotoDetailIntent, PhotoDetailSideEffect>(
     initialState = PhotoDetailState(),
     savedStateHandle = savedStateHandle
 ) {
+    override fun postIntent(intent: PhotoDetailIntent) = Unit
+
     init {
         fetchGetPhoto()
     }
@@ -96,11 +110,13 @@ class PhotoDetailViewModel @Inject constructor(
     private fun fetchGetPhoto() = getPhotoUseCase(
         id = savedStateHandle.getStateFlow(NavigatorConstant.KEY_ID, "").value
     ).onSuccess {
-        updateState {
-            copy(
-                uiState = UiState.Success,
-                photo = it
-            )
+        intent {
+            reduce {
+                state.copy(
+                    uiState = UiState.Success,
+                    photo = it
+                )
+            }
         }
     }.fetchLoad()
 }

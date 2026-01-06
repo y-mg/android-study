@@ -7,10 +7,10 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 data class SplashState(
     override val uiState: UiState = UiState.Nothing
-) : StateUpdatable {
+) : StateUpdatable<SplashState> {
     override fun withUpdatedUiState(
         newState: UiState
-    ): StateUpdatable = copy(
+    ) = copy(
         uiState = newState
     )
 }

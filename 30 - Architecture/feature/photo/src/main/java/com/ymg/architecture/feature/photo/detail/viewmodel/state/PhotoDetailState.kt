@@ -9,10 +9,10 @@ import kotlinx.parcelize.Parcelize
 data class PhotoDetailState(
     override val uiState: UiState = UiState.Nothing,
     val photo: PhotoModel = PhotoModel()
-): StateUpdatable {
+) : StateUpdatable<PhotoDetailState> {
     override fun withUpdatedUiState(
         newState: UiState
-    ): StateUpdatable = copy(
+    ) = copy(
         uiState = newState
     )
 }

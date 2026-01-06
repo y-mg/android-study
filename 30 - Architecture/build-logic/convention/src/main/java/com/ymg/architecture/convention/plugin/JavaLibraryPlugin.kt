@@ -18,13 +18,13 @@ class JavaLibraryPlugin : Plugin<Project> {
         }
 
         extensions.configure<JavaPluginExtension> {
-            sourceCompatibility = JavaVersion.VERSION_17
-            targetCompatibility = JavaVersion.VERSION_17
+            sourceCompatibility = JavaVersion.VERSION_21
+            targetCompatibility = JavaVersion.VERSION_21
         }
 
         extensions.configure<KotlinProjectExtension> {
             jvmToolchain {
-                languageVersion.set(JavaLanguageVersion.of(17))
+                languageVersion.set(JavaLanguageVersion.of(21))
             }
         }
 

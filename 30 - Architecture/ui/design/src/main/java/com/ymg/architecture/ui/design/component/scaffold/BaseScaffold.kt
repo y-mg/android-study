@@ -9,7 +9,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import com.ymg.architecture.ui.design.action.keyboard.keyboardAsState
+import com.ymg.architecture.ui.design.action.keyboard.KeyboardAsState
 import com.ymg.architecture.ui.design.component.snackbar.BaseSnackbar
 
 @Composable
@@ -40,7 +40,7 @@ fun BaseScaffold(
                 color = backgroundColor
             ) {
                 if (managedKeyboardStateUsed) {
-                    keyboardAsState()
+                    KeyboardAsState()
                 }
                 content()
             }
